@@ -5,6 +5,7 @@ When building reliable and highly available applications on AWS, understanding h
   
 ## Analyzing the Existing EC2 Instance
 Before diving into the application deployment, it's crucial to review the EC2 instance settings. In this step, we explore the EC2 instance’s configuration, confirming whether it is in a public subnet, ensuring the right ports are open, and verifying its connection settings. This analysis lays the foundation for configuring and securing the instance in later steps.
+
 ![image](https://github.com/user-attachments/assets/efab563d-eef1-445c-9bbf-cd888313fa9b)
 
 
@@ -16,6 +17,7 @@ AWS Cloud9 offers a powerful, cloud-based IDE that directly integrates with EC2 
 
 ## Analyzing the LAMP Stack and Web Server Configuration
 The LAMP stack (Linux, Apache, MySQL, PHP) is the core technology that powers the café’s dynamic website. In this step, we verify the proper installation and configuration of Apache, PHP, and MySQL. Ensuring that these components are working correctly is essential for the café’s website to run smoothly, providing both dynamic content and database connectivity.
+
 ![image](https://github.com/user-attachments/assets/2f60f4da-c5a2-4c00-92ca-ec43122e6cc7)
 
 
@@ -27,22 +29,26 @@ Cloud9’s file explorer makes it easy to manage the files necessary for running
 
 ## Installing the Café Application
 Once the server environment is prepared, the next step is to install the café's dynamic web application. By downloading the necessary application files and unzipping them directly into the /var/www/html/ directory, we ensure that the web server is ready to host the application and serve dynamic content to users.
+
 ![image](https://github.com/user-attachments/assets/370ac81a-3857-4b8a-8abc-bb62d83b8fd8)
 
 
 ## Configuring the MySQL Database for the Application
 A functional MySQL database is key for storing user data, such as orders and customer information. In this step, we set up the MySQL database, run scripts to create the necessary tables, and confirm the café’s product data is stored correctly. This database setup is essential for the online ordering system to work seamlessly.
+
 ![image](https://github.com/user-attachments/assets/d55fd22c-cdf3-4754-b183-75fe1b0db7bb)
 
 
 ## Testing the Web Application
 Testing the web application is critical to ensuring it functions as expected. After setting up the application and database, we navigate through the menu and place a test order. This ensures that users can browse products, and place orders and that those orders appear in the order history, confirming the application is operational.
+
 ![image](https://github.com/user-attachments/assets/71f375a8-1fdb-4c0c-8f20-856fca0b7f00)
 ![image](https://github.com/user-attachments/assets/7ad6e6ed-798d-44e6-b402-da179bcde2a8)
 
 
 ## Creating Development and Production Environments Across AWS Regions
 Creating separate development and production environments across different AWS Regions improves application availability and scalability. In this step, we use Amazon EC2 to replicate the café’s website in a different region for better resilience and disaster recovery. The ability to scale and migrate between regions ensures the application can handle high traffic and be recovered in case of failure.
+
 ![image](https://github.com/user-attachments/assets/691b0ff8-39cb-4d85-89ba-5cd6589fee0b)
 
 
