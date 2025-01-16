@@ -10,6 +10,7 @@ Before diving into the application deployment, it's crucial to review the EC2 in
 
 ## Connecting to AWS Cloud9 IDE on the EC2 Instance
 AWS Cloud9 offers a powerful, cloud-based IDE that directly integrates with EC2 instances. This environment allows you to edit files, execute code, and test changes without needing additional software or SSH access. By connecting to Cloud9, we create an efficient development space to work on the café’s application directly from the cloud.
+
 ![image](https://github.com/user-attachments/assets/db8372ad-0f3d-4476-853d-22255b18172b)
 
 
