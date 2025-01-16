@@ -20,6 +20,7 @@ The LAMP stack (Linux, Apache, MySQL, PHP) is the core technology that powers th
 
 ## Editing Web Server Files Using Cloud9
 Cloud9’s file explorer makes it easy to manage the files necessary for running the café’s website. In this step, we configure the web server by creating an HTML test page, ensuring the server is properly serving content. This allows us to confirm that the web server is configured correctly before deploying the full application.
+
 ![image](https://github.com/user-attachments/assets/913cb943-832c-4076-ad9e-079e8ef0e370)
 
 
